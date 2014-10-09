@@ -10,8 +10,14 @@ files = [
   'misc/test-lib/angular.js',
   'misc/test-lib/angular-mocks.js',
   'misc/test-lib/helpers.js',
-  'src/**/*.js',
-  'template/**/*.js'
+  //'src/**/*.js',
+  // this is just to run the tests for the flextypeahead directives
+  //
+  'src/position/**/*.js',
+  'src/bindHtml/**/*.js',
+  'src/typeahead/*.js',
+  'template/typeahead/**/*.js',
+  'src/flextypeahead/**/*.js'
 ];
 
 // list of files to exclude
